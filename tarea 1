@@ -1,0 +1,26 @@
+public class Main {
+
+
+    public static void main(String[] args) {
+        Coche miCoche = new Coche();
+        miCoche.MasPuerta();
+        miCoche.MasPuerta();
+        miCoche.MasPuerta();
+        miCoche.MasPuerta();
+        System.out.println(miCoche.puerta);
+    }
+
+    public static int suma(int a, int b) {
+        return a + b;
+
+    }
+}
+
+class Coche{
+    public int puerta = 0;
+
+    public void MasPuerta () {
+
+        this.puerta++;
+    }
+}
